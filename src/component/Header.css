@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240, 237, 237);
+  }
+  
+  .logo {
+    order: 2; /* Moves the logo to the right */
+  }
+  
+  .navigation {
+    order: 1; /* Moves the navigation to the left */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+  }
+  
